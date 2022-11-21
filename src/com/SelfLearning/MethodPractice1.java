@@ -2,7 +2,7 @@ package com.SelfLearning;
 
 import java.util.Scanner;
 
-public class MethodExercises {
+public class MethodPractice1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter your first number: ");
