@@ -1,23 +1,36 @@
 package com.java.class30;
 
 
-public class Bank {
+class Bank {
+    int balance;
 
+    void deposit(int amount){
+        balance = balance + amount;
+    }
     void displayRateOfInterest(){
         System.out.println("4%");
     }
 }
 
 class ChaseBank extends Bank{
+    void displayRateOfInterest(){
+        System.out.println("6%");
+    }
 
 }
 
 class BankOfAmerica extends Bank{
+    void displayRateOfInterest(){
+        System.out.println("3%");
+    }
 
 }
 
 
 class CityBank extends Bank{
+    void displayRateOfInterest(){
+        System.out.println("5%");
+    }
 
 }
 

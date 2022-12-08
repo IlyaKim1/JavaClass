@@ -9,30 +9,30 @@ public class LoopsPractice4 {
 //        Write a program to enter the numbers till the user wants and at the end it should display the count
 //        of positive, negative and zeros entered.
 //        ====================================================================================================
-//        String yn;
-//        int posCount = 0;
-//        int negCount = 0;
-//        int zeroCount = 0;
-//
-//        do{
-//            System.out.println("Enter a number");
-//            int num = sc.nextInt();
-//            if(num > 0){
-//                posCount++;
-//            }else if(num < 0){
-//                negCount++;
-//            }else{
-//                zeroCount++;
-//            }
-//
-//            System.out.println("Do you want to enter another one? Press Y/N");
-//            yn = sc.next();
-//
-//        }while(yn.equalsIgnoreCase("Y"));
-//
-//        System.out.println("Positive numbers entered: " + posCount);
-//        System.out.println("Negative numbers entered: " + negCount);
-//        System.out.println("Zeros entered: " + zeroCount);
+        String yn;
+        int posCount = 0;
+        int negCount = 0;
+        int zeroCount = 0;
+
+        do{
+            System.out.println("Enter a number");
+            int num = sc.nextInt();
+            if(num > 0){
+                posCount++;
+            }else if(num < 0){
+                negCount++;
+            }else{
+                zeroCount++;
+            }
+
+            System.out.println("Do you want to enter another one? Press Y/N");
+            yn = sc.next();
+
+        }while(yn.equalsIgnoreCase("Y"));
+
+        System.out.println("Positive numbers entered: " + posCount);
+        System.out.println("Negative numbers entered: " + negCount);
+        System.out.println("Zeros entered: " + zeroCount);
 
 //        ====================================================================================================
 //        Write a program to enter the numbers till the user wants and at the end the program should display
@@ -174,70 +174,70 @@ public class LoopsPractice4 {
 //        ====================================================================================================
 //        Write a program to print following :
 //        ====================================================================================================
-        System.out.println("1) ");
-        for(int i = 1; i <= 4; i++){
-            for(int j = 1; j <= 10; j++){
-
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-        skipLine();
-        System.out.println("2) ");
-        for(int i = 1; i <= 5; i++){
-            for(int j = 1; j <= i; j++){
-
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-        skipLine();
-        System.out.println("3) ");
-        for(int i = 1; i <= 5; i++){
-            for(int sp = 1; sp <= 5 - i; sp++){
-                System.out.print(" ");
-            }
-            for(int j = 1; j <= i; j++){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-        skipLine();
-        System.out.println("4) ");
-        for(int i = 1; i <= 5; i++){
-            for(int sp = 1; sp <= 5 - i; sp++){
-                System.out.print(" ");
-            }
-            for(int j = 1; j <= i * 2 - 1; j++){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-        skipLine();
-        System.out.println("5) ");
-        for(int i = 1; i <= 5; i++){
-            for(int sp = 1; sp <= 5 - i; sp++){
-                System.out.print(" ");
-            }
-            for(int j = 1; j <= i * 2 - 1; j++){
-                System.out.print(i);
-            }
-            System.out.println();
-        }
-        skipLine();
-        System.out.println("6) ");
-        for(int i = 1; i < 7; i++){
-            for(int s = 7 - i; s > 1; s--){
-                System.out.print(" ");
-            }
-            for(int j = i; 1 <= j; j--){
-                System.out.print(j);
-            }
-            for(int k = 2; k <= i; k++){
-                System.out.print(k);
-            }
-            System.out.println();
-        }
+//        System.out.println("1) ");
+//        for(int i = 1; i <= 4; i++){
+//            for(int j = 1; j <= 10; j++){
+//
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//        skipLine();
+//        System.out.println("2) ");
+//        for(int i = 1; i <= 5; i++){
+//            for(int j = 1; j <= i; j++){
+//
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//        skipLine();
+//        System.out.println("3) ");
+//        for(int i = 1; i <= 5; i++){
+//            for(int sp = 1; sp <= 5 - i; sp++){
+//                System.out.print(" ");
+//            }
+//            for(int j = 1; j <= i; j++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//        skipLine();
+//        System.out.println("4) ");
+//        for(int i = 1; i <= 5; i++){
+//            for(int sp = 1; sp <= 5 - i; sp++){
+//                System.out.print(" ");
+//            }
+//            for(int j = 1; j <= i * 2 - 1; j++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//        skipLine();
+//        System.out.println("5) ");
+//        for(int i = 1; i <= 5; i++){
+//            for(int sp = 1; sp <= 5 - i; sp++){
+//                System.out.print(" ");
+//            }
+//            for(int j = 1; j <= i * 2 - 1; j++){
+//                System.out.print(i);
+//            }
+//            System.out.println();
+//        }
+//        skipLine();
+//        System.out.println("6) ");
+//        for(int i = 1; i < 7; i++){
+//            for(int s = 7 - i; s > 1; s--){
+//                System.out.print(" ");
+//            }
+//            for(int j = i; 1 <= j; j--){
+//                System.out.print(j);
+//            }
+//            for(int k = 2; k <= i; k++){
+//                System.out.print(k);
+//            }
+//            System.out.println();
+//        }
 
 
 
